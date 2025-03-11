@@ -1,0 +1,23 @@
+.cart-product{
+    display: flex;
+    gap: 20px;
+    border: 1px solid;
+    align-items: center;
+    width: screen;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e8bbfa;
+
+
+
+}
+.cart-product img{
+    height: 100px;
+    width: 100px;
+}
+.cart-container{
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    margin: 50px;
+}
