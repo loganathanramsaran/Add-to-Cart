@@ -14,10 +14,16 @@
   width: 280px;
   padding: 10px;
   background-color: #f5ebfa;
+  border-radius: 10px;
+  
+}
+.product-card:hover{
+  background-color: #e8bbfa;
+  box-shadow:  #492258 0px 0px 0px 1px;
 }
 
 .product-details{
-  padding: 20px;
+  padding-left: 20px;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -30,7 +36,7 @@
 
 .product-container{
   background-color: #e7dbef;
-  padding-top: 55px;
+  /* padding-top: 55px; */
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
