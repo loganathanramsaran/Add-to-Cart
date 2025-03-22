@@ -7,14 +7,14 @@
     padding: 10px;
     border-radius: 10px;
     background-color: #e8bbfa;
-
-
-
 }
+
 .cart-product img{
+    border-radius: 10%;
     height: 100px;
     width: 100px;
 }
+
 .cart-container{
     display: flex;
     flex-flow: column;
