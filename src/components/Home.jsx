@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Product } from "./Product";
+import Footer from "./Footer";
 
 export const Home = ({ cart, setCart }) => {
   const [products, setProducts] = useState([]);
@@ -8,7 +9,7 @@ export const Home = ({ cart, setCart }) => {
     .then((json) => setProducts(json));
 
   return (
-    <div className="product-container">
+    <div className="product-container p-3">
       <div className="w-screen">
         <h1 className="pt-8 text-4xl text-center bg-[#e7dbef]">
           <span className="text-purple-950">Welcome</span> to Shop Cart{" "}
@@ -27,5 +28,6 @@ export const Home = ({ cart, setCart }) => {
         />
       ))}
     </div>
+    
   );
 };

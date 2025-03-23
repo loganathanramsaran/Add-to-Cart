@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 export const Header = ({ cart }) => {
   return (
-    <div className="navbar flex bg-[#492258] text-white justify-between p-3 pr-14 pl-12 shadow-xl ">
+    <div className="navbar sticky top-0 flex bg-[#492258] text-white justify-between p-3 pr-14 pl-12 shadow-xl ">
       <Link to={"/"} className="logo flex text-[20px] ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
