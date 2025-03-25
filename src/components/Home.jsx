@@ -9,7 +9,7 @@ export const Home = ({ cart, setCart }) => {
     .then((json) => setProducts(json));
 
   return (
-    <div className="product-container p-3">
+    <div className="product-container">
       <div className="w-screen">
         <h1 className="pt-8 text-4xl text-center bg-[#e7dbef]">
           <span className="text-purple-950">Welcome</span> to Shop Cart{" "}
@@ -27,7 +27,9 @@ export const Home = ({ cart, setCart }) => {
           setCart={setCart}
         />
       ))}
+      <>
+      <Footer />
+      </>
     </div>
-    
   );
 };

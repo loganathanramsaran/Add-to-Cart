@@ -8,14 +8,16 @@
   width: 100px;
   align-content: center;
 }
+
 .product-card{
-  display: flex;
-  height: 180px;
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 230px;
   width: 280px;
   padding: 10px;
-  background-color: #f5ebfa;
   border-radius: 10px;
-  
+  background-color: #f5ebfa;
+  justify-content: space-between;
 }
 .product-card:hover{
   background-color: #e8bbfa;
@@ -36,7 +38,6 @@
 
 .product-container{
   background-color: #e7dbef;
-  /* padding-top: 55px; */
   display: flex;
   flex-wrap: wrap;
   gap: 30px;

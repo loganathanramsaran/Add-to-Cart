@@ -4,7 +4,6 @@ import { Header } from './components/Header'
 import { Home } from './components/Home'
 import { Cart } from './components/Cart'
 import { useState } from 'react'
-import Footer from './components/Footer'
 
 function App() {
   const [cart, setCart] = useState([])
@@ -20,7 +19,6 @@ function App() {
           <Route path='/Cart' element={<Cart cart={cart} setCart={setCart}/>} />
         </Routes>
       </div>
-      <Footer />
       </BrowserRouter>
     </>
   )
