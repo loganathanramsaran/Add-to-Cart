@@ -12,8 +12,8 @@
 .product-card{
   display: grid;
   grid-template-columns: auto auto;
-  height: 230px;
-  width: 280px;
+  height: 210px;
+  width: 290px;
   padding: 10px;
   border-radius: 10px;
   background-color: #f5ebfa;
@@ -21,15 +21,14 @@
 }
 .product-card:hover{
   background-color: #e8bbfa;
-  box-shadow:  #492258 0px 0px 0px 1px;
+  box-shadow:  #492258 0px 0px 15px 0px;
 }
 
 .product-details{
   padding-left: 20px;
   justify-content: center;
-  align-items: center;
-  align-content: center;
-  font-size: 13px ;
+  align-content: space-evenly;
+  font-size: 12px ;
   
 }
 .container{
@@ -37,7 +36,6 @@
 }
 
 .product-container{
-  background-color: #e7dbef;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
