@@ -35,7 +35,7 @@ export const Cart = ({ cart }) => {
       {
         cart.length === 0?(
           <div className=" flex flex-col items-center gap-7 p-10">
-            <img className="w-60 " src="./src/assets/empty-cart.png" alt="" />
+            <img className="w-60 " src="src/assets/empty-cart.png" alt="Empty-Cart" />
             <p className="text-center text-lg">Your Cart is Empty!</p>
               <p className="text-center text-[12px] -mt-3">Add Items to it Now.</p>
               <Link to={"/"}
